@@ -47,6 +47,9 @@ public class TenantsApi {
     private static String localServerBaseTemplate = ServerConfiguration.defaultServerTemplate;
     private Map<String, String> localHeaders = new HashMap<String, String>();
 
+   public TenantsApi() {
+        
+    }
     public TenantsApi(String baseUrl, ApiClient apiClient, Map<String, String> headers) {
         this.localCustomBaseUrl = baseUrl;
         this.localVarApiClient = apiClient;
