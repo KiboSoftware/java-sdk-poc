@@ -4,18 +4,19 @@
     <artifactId>event</artifactId>
     <packaging>jar</packaging>
     <name>event</name>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
     <description>OpenAPI Java</description>
     <scm>
         <connection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</connection>
         <developerConnection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</developerConnection>
         <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
-    </scm>
+      <tag>sdk-1.1.0</tag>
+  </scm>
     <parent>
         <groupId>com.kibocommerce</groupId>
         <artifactId>sdk</artifactId>
-        <version>1.1.0-SNAPSHOT</version>
+        <version>1.1.0</version>
     </parent>
 
     <licenses>
@@ -264,7 +265,7 @@
     <dependency>
         <groupId>com.kibocommerce</groupId>
         <artifactId>common</artifactId>
-        <version>1.1.0-SNAPSHOT</version>
+        <version>1.1.0</version>
     </dependency>
         <dependency>
             <groupId>io.swagger</groupId>
