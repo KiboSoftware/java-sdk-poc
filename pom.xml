@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <project xmlns="http://maven.apache.org/POM/4.0.0"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <modelVersion>4.0.0</modelVersion>
       <groupId>com.kibocommerce</groupId>
       <artifactId>sdk</artifactId>
-      <version>1.0.1-SNAPSHOT</version>
+      <version>1.0.1</version>
       <packaging>pom</packaging>
       <modules>
                   <module>adminuser</module>
@@ -115,6 +113,7 @@
         <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
         <connection>scm:git:git@github.com:KiboSoftware/kibo.sdk.java.git</connection>
         <developerConnection>scm:git:git@github.kibocommerce.com:KiboSoftware/java-sdk-poc.git</developerConnection>
-    </scm>
+      <tag>sdk-1.0.1</tag>
+  </scm>
 
   </project>

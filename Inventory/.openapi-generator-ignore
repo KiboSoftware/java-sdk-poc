@@ -41,3 +41,5 @@ build.sh
 **/src/main/java/com/kibocommerce/**/ProgressResponseBody.java
 **/src/main/java/com/kibocommerce/**/StringUtil.java
 **/src/main/java/com/kibocommerce/**/ServerVariable.java
+**/src/main/java/com/kibocommerce/**/ServerVariable.java
+**/src/test/**
