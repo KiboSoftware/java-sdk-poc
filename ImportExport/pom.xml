@@ -6,12 +6,12 @@
     <packaging>jar</packaging>
     <name>importexport</name>
     <version>1.0.0</version>
-    <url>https://github.com/kibosoftware/unified-sdk-java</url>
+    <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
     <description>OpenAPI Java</description>
     <scm>
-        <connection>scm:git:git@github.com:kibosoftware/unified-sdk-java.git</connection>
-        <developerConnection>scm:git:git@github.com:kibosoftware/unified-sdk-java.git</developerConnection>
-        <url>https://github.com/kibosoftware/unified-sdk-java</url>
+        <connection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</connection>
+        <developerConnection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</developerConnection>
+        <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
     </scm>
     <parent>
         <groupId>com.kibocommerce</groupId>

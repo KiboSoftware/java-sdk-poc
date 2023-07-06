@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -51,20 +50,3 @@ src/main/java/com/kibocommerce/sdk/entities/models/ListView.java
 src/main/java/com/kibocommerce/sdk/entities/models/ListViewCollection.java
 src/main/java/com/kibocommerce/sdk/entities/models/ListViewField.java
 src/main/java/com/kibocommerce/sdk/entities/models/StringStringIEnumerableKeyValuePair.java
-src/test/java/com/kibocommerce/sdk/entities/api/EntitiesApiTest.java
-src/test/java/com/kibocommerce/sdk/entities/api/EntityContainersApiTest.java
-src/test/java/com/kibocommerce/sdk/entities/api/EntityListsApiTest.java
-src/test/java/com/kibocommerce/sdk/entities/api/ListViewsApiTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/AppDevHttpContentTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/AppDevHttpRequestMessageTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/EntityCollectionTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/EntityContainerCollectionTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/EntityContainerTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/EntityListCollectionTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/EntityListTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/HttpMethodTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/IndexedPropertyTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/ListViewCollectionTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/ListViewFieldTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/ListViewTest.java
-src/test/java/com/kibocommerce/sdk/entities/models/StringStringIEnumerableKeyValuePairTest.java

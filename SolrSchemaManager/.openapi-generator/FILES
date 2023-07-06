@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -37,13 +36,3 @@ src/main/java/com/kibocommerce/sdk/solrschemamanager/models/SchemaDefinition.jav
 src/main/java/com/kibocommerce/sdk/solrschemamanager/models/SchemaDefinitionField.java
 src/main/java/com/kibocommerce/sdk/solrschemamanager/models/SpellingSchemaDefinitionField.java
 src/main/java/com/kibocommerce/sdk/solrschemamanager/models/Suggester.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/api/FieldTypeDefinitionApiTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/api/SchemaDefinitionApiTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/api/SuggestDefinitionApiTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/api/SynonymApiTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/AdminUserAuditInfoTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/FieldTypeDefinitionRepositoryEntryTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/SchemaDefinitionFieldTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/SchemaDefinitionTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/SpellingSchemaDefinitionFieldTest.java
-src/test/java/com/kibocommerce/sdk/solrschemamanager/models/SuggesterTest.java

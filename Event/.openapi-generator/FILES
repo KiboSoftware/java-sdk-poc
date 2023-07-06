@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -47,18 +46,3 @@ src/main/java/com/kibocommerce/sdk/event/models/EventSummary.java
 src/main/java/com/kibocommerce/sdk/event/models/HttpStatus.java
 src/main/java/com/kibocommerce/sdk/event/models/SubscribingSite.java
 src/main/java/com/kibocommerce/sdk/event/models/SubscribingTenant.java
-src/test/java/com/kibocommerce/sdk/event/api/EventApiTest.java
-src/test/java/com/kibocommerce/sdk/event/api/SubscriptionApiTest.java
-src/test/java/com/kibocommerce/sdk/event/models/AdminUserAuditInfoTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventCollectionTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventDeliveryAttemptTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventDeliverySummaryCollectionTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventDeliverySummaryTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventEventTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventExtendedPropertyTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventSubscriptionCollectionTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventSubscriptionTest.java
-src/test/java/com/kibocommerce/sdk/event/models/EventSummaryTest.java
-src/test/java/com/kibocommerce/sdk/event/models/HttpStatusTest.java
-src/test/java/com/kibocommerce/sdk/event/models/SubscribingSiteTest.java
-src/test/java/com/kibocommerce/sdk/event/models/SubscribingTenantTest.java

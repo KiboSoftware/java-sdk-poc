@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -49,19 +48,3 @@ src/main/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIChangeMes
 src/main/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIOrderAttribute.java
 src/main/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIPackageMeasurements.java
 src/main/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIProductProperty.java
-src/test/java/com/kibocommerce/sdk/reservation/api/ReservationApiTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/AllocatiTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/AuditInfTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/BundledProduTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/CommerceRuntimeMeasurementTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/CommerceRuntimeProductPropertyValueTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/InventoryTagsTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/OrderReservatiTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ProduTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservatiTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationCollectiTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationItemTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIChangeMessageTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIOrderAttributeTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIPackageMeasurementsTest.java
-src/test/java/com/kibocommerce/sdk/reservation/models/ReservationWebAPIProductPropertyTest.java

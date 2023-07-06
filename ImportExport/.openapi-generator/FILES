@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -37,13 +36,3 @@ src/main/java/com/kibocommerce/sdk/importexport/models/ExportJob.java
 src/main/java/com/kibocommerce/sdk/importexport/models/ExportResource.java
 src/main/java/com/kibocommerce/sdk/importexport/models/ImportJob.java
 src/main/java/com/kibocommerce/sdk/importexport/models/ImportResource.java
-src/test/java/com/kibocommerce/sdk/importexport/api/ExportApiTest.java
-src/test/java/com/kibocommerce/sdk/importexport/api/FilesApiTest.java
-src/test/java/com/kibocommerce/sdk/importexport/api/ImportApiTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/AdminUserAuditInfoTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/ContextOverrideTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/DropLocationTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/ExportJobTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/ExportResourceTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/ImportJobTest.java
-src/test/java/com/kibocommerce/sdk/importexport/models/ImportResourceTest.java

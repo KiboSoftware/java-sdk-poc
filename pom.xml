@@ -41,10 +41,6 @@
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.1.0</version>
                 </plugin>
-                <plugin>
-                    <artifactId>maven-release-plugin</artifactId>
-                    <version>3.0.1</version>
-                </plugin>
                 <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
@@ -70,6 +66,13 @@
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>2.8.2</version>
                 </plugin>
+                <plugin>
+                    
+                        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.1</version>
+                </plugin>
+
                 <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
                 <plugin>
                     <artifactId>maven-site-plugin</artifactId>
@@ -79,6 +82,7 @@
                     <artifactId>maven-project-info-reports-plugin</artifactId>
                     <version>3.0.0</version>
                 </plugin>
+                
             </plugins>
         </pluginManagement>
     </build>
@@ -108,23 +112,9 @@
     </profiles>
 
     <scm>
-        <url>https://github.com/KiboSoftware/kibo.sdk.java.git</url>
+        <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
         <connection>scm:git:git@github.com:KiboSoftware/kibo.sdk.java.git</connection>
-        <developerConnection>scm:git:git@github.kibocommerce.com:KiboSoftware/kibo.sdk.java.git</developerConnection>
+        <developerConnection>scm:git:git@github.kibocommerce.com:KiboSoftware/java-sdk-poc.git</developerConnection>
     </scm>
 
-      <distributionManagement>
-        <snapshotRepository>
-                <id>sonatype-snapshots</id>
-                <name>Sonatype Snapshots</name>
-                <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      </snapshotRepository>
-
-      <repository>
-                <id>sonatype-releases</id>
-                <name>Sonatype Releases</name>
-                <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-      </repository>
-
-    </distributionManagement>
   </project>
