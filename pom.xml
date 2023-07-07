@@ -121,11 +121,10 @@
     </profiles>
 
     <scm>
-        <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
-        <connection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</connection>
-        <developerConnection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</developerConnection>
-    <tag>sdk-1.6.1</tag>
-  </scm>
+        <connection>scm:git:${project.scm.url}</connection>
+        <developerConnection>scm:git:${project.scm.url}</developerConnection>
+        <url>git@github.com:KiboSoftware/java-sdk-poc.git</url>
+ </scm>
   <properties>
       <project.scm.id>kibo-software-github</project.scm.id>
     </properties>
