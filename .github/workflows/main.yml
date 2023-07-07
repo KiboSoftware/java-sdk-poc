@@ -1,0 +1,24 @@
+name: release version
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Release
+        uses: qcastel/github-actions-maven-release@master
+        env:
+          JAVA_HOME: /usr/lib/jvm/java-11-openjdk/
+        with:
+          git-release-bot-name: "bot-idhub"
+          git-release-bot-email: "bot@idhub.io"
+          maven-args: "-Dmaven.test.skip=true -Dmaven.javadoc.failOnError=false -DautoVersionSubmodules=true"
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          skip-perform: true
