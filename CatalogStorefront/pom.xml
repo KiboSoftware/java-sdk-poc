@@ -4,7 +4,7 @@
     <artifactId>catalogstorefront</artifactId>
     <packaging>jar</packaging>
     <name>catalogstorefront</name>
-    <version>1.6.1</version>
+    <version>2.6.0-SNAPSHOT</version>
     <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
     <description>OpenAPI Java</description>
     <scm>
@@ -16,7 +16,7 @@
     <parent>
         <groupId>com.kibocommerce</groupId>
         <artifactId>sdk</artifactId>
-        <version>1.6.1</version>
+        <version>2.6.0-SNAPSHOT</version>
     </parent>
 
     <licenses>
@@ -265,7 +265,7 @@
     <dependency>
         <groupId>com.kibocommerce</groupId>
         <artifactId>common</artifactId>
-        <version>1.6.1</version>
+        <version>2.6.0-SNAPSHOT</version>
     </dependency>
         <dependency>
             <groupId>io.swagger</groupId>
