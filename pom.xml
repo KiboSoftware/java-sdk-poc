@@ -3,10 +3,10 @@
       <modelVersion>4.0.0</modelVersion>
       <groupId>com.kibocommerce</groupId>
       <artifactId>sdk</artifactId>
-      <version>1.5.0</version>
+      <version>1.6.0-SNAPSHOT</version>
       <packaging>pom</packaging>
       <modules>
-                  <module>adminuser</module>
+        <module>adminuser</module>
         <module>appdevelopment</module>
         <module>catalogadministration</module>
         <module>catalogstorefront</module>
@@ -123,7 +123,7 @@
     <scm>
         <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
         <connection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</connection>
-        <developerConnection>scm:git:git@github.kibocommerce.com:KiboSoftware/java-sdk-poc.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</developerConnection>
     <tag>sdk-1.5.0</tag>
   </scm>
   <properties>
