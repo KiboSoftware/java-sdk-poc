@@ -122,9 +122,8 @@
 
     <scm>
         <url>https://github.com/KiboSoftware/java-sdk-poc.git</url>
-        <connection>scm:git:git@github.com:KiboSoftware/kibo.sdk.java.git</connection>
+        <connection>scm:git:git@github.com:KiboSoftware/java-sdk-poc.git</connection>
         <developerConnection>scm:git:git@github.kibocommerce.com:KiboSoftware/java-sdk-poc.git</developerConnection>
-      <tag>sdk-1.1.0</tag>
   </scm>
   <properties>
       <project.scm.id>kibo-software-github</project.scm.id>
